@@ -1,0 +1,105 @@
+8
+Statie1
+4
+	Client1.1
+	2
+	5
+	Client1.2
+	3
+	6
+	Client1.3
+	4
+	8
+	Client1.4
+	3
+	4
+4
+Client1.1 Client1.2 2
+Client1.2 Client1.3 3
+Client1.3 Client1.1 4
+Client1.3 Client1.4 1
+Statie2
+2
+	Client2.1
+	6
+	3
+	Client2.2
+	4
+	9
+0
+Statie3
+2
+	Client3.1
+	4
+	3
+	Client3.2
+	6
+	7
+0
+Statie4
+1
+	Client4.1
+	3
+	2
+0
+Statie5
+1
+	Client5.1
+	7
+	8
+0
+Statie6
+1
+	Client6.1
+	3
+	5
+0
+Statie7
+1
+	Client7.1
+	2
+	4
+0
+Statie8
+4
+	Client8.1
+	4
+	9
+	Client8.2
+	5
+	3
+	Client8.3
+	2
+	2
+	Client8.4
+	1
+	6
+4
+Client8.1 Client8.2 5
+Client8.2 Client8.3 2
+Client8.3 Client8.1 3
+Client8.3 Client8.4 4
+12
+Statie1 Statie2 1
+Statie2 Statie8 7
+Statie2 Statie4 8
+Statie2 Statie7 6
+Statie4 Statie3 1
+Statie8 Statie5 1
+Statie5 Statie6 5
+Statie4 Statie8 2
+Statie3 Statie5 1
+Statie7 Statie6 10
+Statie2 Statie6 9
+Statie2 Statie3 2
+10
+legatura Statie8
+sterge_ruta Statie8 Statie2
+sterge_ruta Statie8 Statie4
+adauga_ruta Statie8 Statie1 2
+adauga_ruta Statie8 Statie7 2
+legatura Statie8
+blocaj_tunel Statie8 Statie7
+blocaj_tunel Statie2 Statie7
+drum_metrou Statie1 Statie6
+timp_statie Statie1

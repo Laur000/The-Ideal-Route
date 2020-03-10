@@ -1,0 +1,5 @@
+Statie1 Statie5 Statie7 
+Client7.1 Client7.2 Client7.3 Client7.9 
+OK
+Client7.1 Client7.8 Client7.7 Client7.9 
+Statie1 Statie7 Statie8 

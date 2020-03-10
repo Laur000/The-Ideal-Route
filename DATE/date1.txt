@@ -1,0 +1,68 @@
+5
+Statie1
+3
+	Client1.1
+	2
+	7
+	Client1.2
+	3
+	8
+	Client1.3
+	7
+	5
+3
+Client1.1 Client1.2 5
+Client1.2 Client1.3 1
+Client1.3 Client1.1 4
+Statie2
+4
+	Client2.1
+	1
+	7
+	Client2.2
+	2
+	8
+	Client2.3
+	7
+	5
+	Client2.4
+	4
+	6
+4
+Client2.1 Client2.2 7
+Client2.1 Client2.3 2
+Client2.2 Client2.4 3
+Client2.3 Client2.4 4
+Statie3
+1
+	Client3.1
+	1
+	10
+0
+Statie4
+2
+	Client4.1
+	4
+	5
+	Client4.2
+	2
+	6
+1
+Client4.1 Client4.2 3
+Statie5
+1
+	Client5.1
+	3
+	5
+0
+4
+Statie1 Statie3 1
+Statie3 Statie2 3
+Statie2 Statie4 1
+Statie4 Statie5 2
+5
+legatura Statie3
+adauga_ruta Statie1 Statie2 5
+adauga_ruta Statie4 Statie3 6
+legatura Statie1
+comanda_statie 20

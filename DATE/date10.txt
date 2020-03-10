@@ -1,0 +1,125 @@
+7
+Statie1
+4
+	Client1.1
+	3
+	4
+	Client1.2
+	2
+	5
+	Client1.3
+	4
+	3
+	Client1.4
+	4
+	5
+4
+Client1.1 Client1.2 4
+Client1.2 Client1.3 3
+Client1.3 Client1.1 5
+Client1.3 Client1.4 1
+Statie2
+2
+	Client2.1
+	2 
+	3
+	Client2.2
+	4
+	6
+0
+Statie3
+2
+	Client3.1
+	4
+	5
+	Client3.2
+	3
+	8
+0
+Statie4
+1
+	Client4.1
+	2
+	6
+0
+Statie5
+1
+	Client5.1
+	7
+	4
+0
+Statie6
+1
+	Client6.1
+	2
+	5
+0
+Statie7
+9
+	Client7.1
+	3
+	5
+	Client7.2
+	2
+	4
+	Client7.3
+	5
+	7
+	Client7.4
+	1
+	5
+	Client7.5
+	2
+	6
+	Client7.6
+	2
+	3
+	Client7.7
+	7
+	3
+	Client7.8
+	4
+	6
+	Client7.9
+	3
+	7
+13
+Client7.1 Client7.2 4
+Client7.1 Client7.8 8
+Client7.2 Client7.3 8
+Client7.2 Client7.8 11
+Client7.3 Client7.4 7
+Client7.3 Client7.9 2
+Client7.9 Client7.7 6
+Client7.9 Client7.8 7
+Client7.8 Client7.7 1
+Client7.3 Client7.6 4
+Client7.4 Client7.6 14
+Client7.4 Client7.5 9
+Client7.6 Client7.5 10
+8
+Statie1 Statie7 10
+Statie7 Statie3 10
+Statie2 Statie3 5
+Statie3 Statie4 10
+Statie2 Statie6 1
+Statie4 Statie6 2
+Statie5 Statie6 3
+Statie3 Statie5 4
+16
+adauga_ruta Statie1 Statie6 4
+adauga_strada Client7.1 Client7.3 9
+legatura Statie1
+blocaj_strada Client7.8 Client7.9
+blocaj_tunel Statie6 Statie5
+blocaj_tunel Statie3 Statie4
+blocaj_strada Client7.3 Client7.9
+conexiune Client7.8 Client7.7
+drum_strada Client7.8 Client7.5
+drum_metrou Statie1 Statie5
+sterge_strada Client7.8 Client7.9
+sterge_ruta Statie2 Statie6
+adauga_ruta Statie7 Statie2 3
+drum_strada Client7.1 Client7.5
+drum_metrou Statie2 Statie4
+comanda_statie 13
